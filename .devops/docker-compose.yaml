@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  grumphp:
+    image: "yifanfu/php-checkers"
+    command: "grumphp run -n"
+    volumes:
+      - "../:/code"
